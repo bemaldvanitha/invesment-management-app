@@ -1,14 +1,14 @@
 {
   "expo": {
-    "name": "invesmentapp",
-    "slug": "invesmentapp",
+    "name": "Investmentor",
+    "slug": "investmentapp",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/icon.png",
+    "icon": "./assets/invesment.png",
     "splash": {
       "image": "./assets/splash.png",
       "resizeMode": "contain",
-      "backgroundColor": "#ffffff"
+      "backgroundColor": "#F2EFEA"
     },
     "updates": {
       "fallbackToCacheTimeout": 0
@@ -20,10 +20,8 @@
       "supportsTablet": true
     },
     "android": {
-      "adaptiveIcon": {
-        "foregroundImage": "./assets/adaptive-icon.png",
-        "backgroundColor": "#FFFFFF"
-      }
+      "package": "com.bemal.investment",
+      "versionCode": 1
     },
     "web": {
       "favicon": "./assets/favicon.png"
